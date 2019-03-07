@@ -10,7 +10,8 @@ def dictionary(word)
     "you" => "u",
     "at" => "@",
     "and" => "&",
-    "for" => "4"
+    "for" => "4",
+    "four" => "4"
   }
   
   if substitutes.has_key?(word.downcase)
